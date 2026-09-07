@@ -4,7 +4,7 @@ implements:
   - litecoin-electrs
 category: bitcoin
 name: "ElectrumX (LTC)"
-version: "2.0.0-umbrel.12"
+version: "2.0.0-umbrel.13"
 tagline: "A lightweight Litecoin Electrum server"
 description: >-
   Run a personal Litecoin Electrum server powered by ElectrumX 2.0 and Litecoin Core.
@@ -12,8 +12,8 @@ description: >-
   your local network or Tor. ElectrumX (LTC) is an independent indexer and can satisfy
   the same Electrs (LTC) capability used by compatible applications.
 releaseNotes: >-
-  Updates the GUI to Fastify 5.12.1 to resolve CVE-2026-18504 and CVE-2026-16732,
-  and fixes the Connect dialog's decorative border while scrolling on mobile.
+  Shows ElectrumX's live indexing progress while Litecoin Core completes initial sync,
+  instead of incorrectly remaining on "Waiting for Litecoin Core."
 developer: Electrum developers and RyleaStark
 website: https://electrumx-spesmilo.readthedocs.io/
 dependencies:
