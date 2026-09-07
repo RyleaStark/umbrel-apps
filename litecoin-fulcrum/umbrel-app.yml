@@ -4,7 +4,7 @@ implements:
   - litecoin-electrs
 category: bitcoin
 name: "Fulcrum (LTC)"
-version: "2.1.2-umbrel.1"
+version: "2.1.2-umbrel.2"
 tagline: "A fast Litecoin Electrum server"
 description: >-
   Run a personal Litecoin Electrum server powered by Fulcrum and Litecoin Core.
